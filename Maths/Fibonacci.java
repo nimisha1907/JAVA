@@ -1,11 +1,12 @@
-
-// Print the Fibonacci series for n=20
+import java.util.Scanner;
+// Print the Fibonacci series for n
 
 public class Fibonacci {
 
     public static void main(String[] args) {
-
-        int n = 20, t1 = 0, t2 = 1;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int t1 = 0, t2 = 1;
         
         while (t1 <= n) {
             System.out.print(t1 + "   ");
